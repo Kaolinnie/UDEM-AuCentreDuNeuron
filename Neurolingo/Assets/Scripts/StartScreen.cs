@@ -34,4 +34,8 @@ public class StartScreen : MonoBehaviour
 
     }
 
+    public void ClickLeaderboard() {
+        Debug.Log("You clicked the leaderboard button");
+    }
+
 }
