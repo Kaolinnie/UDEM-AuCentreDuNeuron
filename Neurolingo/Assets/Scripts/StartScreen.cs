@@ -1,12 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartScreen : MonoBehaviour
 {
-    
-    
+    public Animator animator;
+    public GameObject imageToActivate;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +21,18 @@ public class StartScreen : MonoBehaviour
         
     }
     
+    private void LoadScene(){
+        SceneManager.LoadScene("Game");
+    }
     // Clicking the start button
     public void ClickStart() {
-        Debug.Log("You clicked start game");
+        imageToActivate.SetActive(true);
+        animator.SetTrigger("FadeOut");
+        Invoke("LoadScene",1);
     }
 
     public void ClickControls() {
         Debug.Log("You clicked controls");
-
     }
 
     public void ClickLanguage() {
