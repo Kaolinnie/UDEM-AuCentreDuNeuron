@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 1940858701
+    locked: 0
+  - name: Signs
+    uniqueID: 8812921
+    locked: 0
+  - name: Interactions
+    uniqueID: 2696868235
+    locked: 0
+  - name: Player
+    uniqueID: 1932461863
+    locked: 0
+  - name: UI
+    uniqueID: 3378844903
+    locked: 0
