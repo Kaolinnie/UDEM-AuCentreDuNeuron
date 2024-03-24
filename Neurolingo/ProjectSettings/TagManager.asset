@@ -44,6 +44,9 @@ TagManager:
   - name: BG
     uniqueID: 1940858701
     locked: 0
+  - name: Pipes
+    uniqueID: 3184705785
+    locked: 0
   - name: Signs
     uniqueID: 8812921
     locked: 0

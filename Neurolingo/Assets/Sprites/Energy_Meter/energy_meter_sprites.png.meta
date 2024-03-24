@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 9b745ab7110e7064e8bc6293f7cdd8cf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: energy_meter_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 653
+        width: 137
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd12bd05f8d97af4bb124206481d2528
+      internalID: 504874952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 654
+        width: 139
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae4dd2eceda3f74e9e83eb28ef2f32b
+      internalID: 1850746792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 865
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1271e6b43d720a44d878ca98be895164
+      internalID: -809393660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 654
+        width: 136
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783ab4e357fdf1847a62335a70b79d54
+      internalID: 1582404282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 652
+        width: 140
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6cbf4fde41ba74e96a23317408ad87
+      internalID: 1376820983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 653
+        width: 139
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d08e622334372a43b16b0727325c543
+      internalID: -298790122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 652
+        width: 138
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f5ab6df53fd004ba057b945ce65ec0
+      internalID: 2016088085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 653
+        width: 137
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7f01ccb1965c141a5050caa110fe3a
+      internalID: -1819205819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 652
+        width: 139
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b45e4b760352364fb9a42f68baf936c
+      internalID: 166362080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 654
+        width: 139
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab27b7af37a6cb4ea84637adc74e175
+      internalID: -371627814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 654
+        width: 137
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c4a85d7e888d44395d7f32960c976e
+      internalID: 27961094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 652
+        width: 136
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1057794f0ecdd4284b21bb03271afc
+      internalID: 1025216905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 652
+        width: 138
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa19de6c702515d45a455c28e557fcf6
+      internalID: 963106339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 654
+        width: 139
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8834ae90511c9468a094fe9768d9a3
+      internalID: 931251941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 652
+        width: 138
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54837896ef46ca24ba7eff6af53ccde0
+      internalID: 2114058407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 653
+        width: 139
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef21debbcd6d2f4fb3fd705aa9d28b1
+      internalID: 1727357637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 653
+        width: 139
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f02b0c012d35479f033a827ab400b
+      internalID: -610680463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 865
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf4aab7428c1b34192c2abdf258f83e
+      internalID: 2139692438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 652
+        width: 138
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68667b4adb0ffa245bab863f6b4c2170
+      internalID: 1850413004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      energy_meter_sprites_0: 504874952
+      energy_meter_sprites_1: 1850746792
+      energy_meter_sprites_10: -371627814
+      energy_meter_sprites_11: 1991292059
+      energy_meter_sprites_12: 27961094
+      energy_meter_sprites_13: 1025216905
+      energy_meter_sprites_14: 963106339
+      energy_meter_sprites_15: 814272366
+      energy_meter_sprites_16: 931251941
+      energy_meter_sprites_17: 757368433
+      energy_meter_sprites_18: 2114058407
+      energy_meter_sprites_19: 1727357637
+      energy_meter_sprites_2: -809393660
+      energy_meter_sprites_20: -610680463
+      energy_meter_sprites_21: 2139692438
+      energy_meter_sprites_22: 1850413004
+      energy_meter_sprites_23: 485179461
+      energy_meter_sprites_24: -1720514811
+      energy_meter_sprites_25: -15148565
+      energy_meter_sprites_26: -506530886
+      energy_meter_sprites_27: 185640992
+      energy_meter_sprites_28: -668994531
+      energy_meter_sprites_29: 178601372
+      energy_meter_sprites_3: 1582404282
+      energy_meter_sprites_30: -1949443143
+      energy_meter_sprites_31: -2043063257
+      energy_meter_sprites_32: 54657987
+      energy_meter_sprites_33: -1177372199
+      energy_meter_sprites_34: 1921680483
+      energy_meter_sprites_35: 719636566
+      energy_meter_sprites_36: 2097908956
+      energy_meter_sprites_37: -951775116
+      energy_meter_sprites_38: 950535590
+      energy_meter_sprites_39: -1315093244
+      energy_meter_sprites_4: 1376820983
+      energy_meter_sprites_40: 173207868
+      energy_meter_sprites_41: 288260081
+      energy_meter_sprites_42: -1028831589
+      energy_meter_sprites_5: -298790122
+      energy_meter_sprites_6: 886030001
+      energy_meter_sprites_7: 2016088085
+      energy_meter_sprites_8: -1819205819
+      energy_meter_sprites_9: 166362080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

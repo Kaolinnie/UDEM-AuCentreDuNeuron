@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,21 +6,19 @@ using UnityEngine;
 public class Valve : MonoBehaviour {
     private Animator animator;
     private static readonly int Rotate = Animator.StringToHash("Rotate");
+    private bool isOpen = false;
 
-    private bool isRotating = false;
+    public GameObject pipe_obj;
+    private Pipe pipe_scr;
 
     public void RotateValve() {
-        isRotating = !isRotating;
-        Debug.Log($"rotating valve {transform.name}");
+        isOpen = !isOpen;
+        pipe_scr.IsValveOpen = isOpen;
+        animator.SetTrigger(Rotate);
     }
     // Start is called before the first frame update
     void Start() {
+        pipe_scr = pipe_obj.GetComponent<Pipe>();
         animator = GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        animator.SetBool(Rotate, isRotating);
     }
 }
